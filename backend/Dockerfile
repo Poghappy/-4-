@@ -1,6 +1,6 @@
 ARG USE_PROXY_SOURCE=false
 
-FROM python:3.11-slim-bookworm AS backend
+FROM python:3.13.9-slim-bookworm AS backend
 
 ARG USE_PROXY_SOURCE
 
